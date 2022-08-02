@@ -13,4 +13,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
+
+    func changeColor() {
+        view.backgroundColor = .red
+    }
+
 }
